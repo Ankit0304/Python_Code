@@ -1,0 +1,10 @@
+import time
+name=input("Enter your Name: ")
+Time=time.strftime("%H:%M:%S",time.localtime())
+print(Time)
+if Time>="0" and Time<"12":
+    print("Good Morning " +name)
+elif Time>="12" and Time<"18":
+    print("Good Afternoon " +name)
+else:
+    print("Good Evening " +name)
