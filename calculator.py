@@ -10,6 +10,7 @@ while True:
 3.Multiplication
 4.Division''')
 
+    print("Enter 1, 2, 3, or 4 to perform the operation")
     choice = input("Enter choice (1/2/3/4): ")
 
     if choice == '1':
